@@ -14,8 +14,8 @@ Le nouveelles puces M9N permettent d'obtenir un taux de rafraichissement de 25Hz
 
 Le projet est constitué : 
 - Une partie électronique constituée :
--- D'une puce ESP 32 
--- D'un puce GPS M9N, dans la première version nous utilisons une carte Sparkfun (https://www.sparkfun.com/products/15712)
+  - D'une puce ESP 32 
+  - D'un puce GPS M9N, dans la première version nous utilisons une carte Sparkfun (https://www.sparkfun.com/products/15712)
 - Un boitier à imprimer en 3D (en cours)
 - Le code source du projet
 
