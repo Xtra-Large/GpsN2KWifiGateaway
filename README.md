@@ -1,5 +1,7 @@
 # GpsN2KWifiGateaway
 
+Ce projet est encore en développement, n'hésitez pas à participer!
+
 ## Présentation
 
 L'objectif initial de ce projet etait de disposer d'un GPS NMEA 2000 ayant une fréquence de rafraichissement d'au moins 10Hz pour l'intégrer dans notre Archambault A31 (https://epsilon3dsailingteam.fr/).
