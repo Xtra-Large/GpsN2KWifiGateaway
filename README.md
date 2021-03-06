@@ -19,6 +19,8 @@ Le projet est constitué :
 - Un boitier à imprimer en 3D (en cours)
 - Le code source du projet
 
+Le code source peut être ouvert avec l'IDE Arduino et le projet électronique avec kiCAD
+
 ## Librairies externes utilisées
 
 Le code source utilise ces librairies, sous licence MIT elles aussi :
