@@ -40,10 +40,10 @@ Actuellement le projet permet :
 
 ## RoadMap
 - Page Web de configuration visualisation
--- Ajout du serveur de configuration Wifi pour configuration sur un routeur externe
--- Ajout de fonction AJAX/JSON pour rechargement de la page de statut
--- Mise en une seule page pour intégrer la fonction de MAJ du firmware
--- Ajout d'option pour activer certaines redirections vers les ports et le reseau (a stocker en NVS)
--- Mise en page et logo
--- Configuration des ports de sortie serie : Msg NMEA, vitesse, activation...
--- Configuration du SSID externe + PWD
+  - Ajout du serveur de configuration Wifi pour configuration sur un routeur externe
+  - Ajout de fonction AJAX/JSON pour rechargement de la page de statut
+  - Mise en une seule page pour intégrer la fonction de MAJ du firmware
+  - Ajout d'option pour activer certaines redirections vers les ports et le reseau (a stocker en NVS)
+  - Mise en page et logo
+  - Configuration des ports de sortie serie : Msg NMEA, vitesse, activation...
+  - Configuration du SSID externe + PWD
