@@ -1,3 +1,5 @@
+![Vue 3D](https://github.com/Xtra-Large/GpsN2KWifiGateaway/blob/main/electronic/3D_pcb.png?raw=true)
+
 # GpsN2KWifiGateaway
 
 Ce projet est encore en développement, n'hésitez pas à participer!
