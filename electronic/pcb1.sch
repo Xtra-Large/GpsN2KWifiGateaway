@@ -30,7 +30,7 @@ EN
 Text Label 9750 2300 0    50   ~ 0
 GPIO0
 $Comp
-L pcb1-rescue:GND-power #PWR021
+L pcb1-rescue:GND-power-pcb1-rescue #PWR021
 U 1 1 5EAAA240
 P 9150 4900
 F 0 "#PWR021" H 9150 4650 50  0001 C CNN
@@ -553,7 +553,7 @@ TX_UART1
 Wire Notes Line
 	650  2750 3450 2750
 $Comp
-L pcb1-rescue:+3.3V-power #PWR011
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR011
 U 1 1 5EB0540C
 P 4900 1600
 F 0 "#PWR011" H 4900 1450 50  0001 C CNN
@@ -564,7 +564,7 @@ F 3 "" H 4900 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pcb1-rescue:+3.3V-power #PWR014
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR014
 U 1 1 5EB07502
 P 6100 3050
 F 0 "#PWR014" H 6100 2900 50  0001 C CNN
@@ -579,7 +579,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3100 6100 3050
 $Comp
-L pcb1-rescue:+3.3V-power #PWR022
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR022
 U 1 1 5EB151FE
 P 10650 1650
 F 0 "#PWR022" H 10650 1500 50  0001 C CNN
@@ -590,7 +590,7 @@ F 3 "" H 10650 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb1-rescue:+BATT-power #PWR018
+L pcb1-rescue:+BATT-power-pcb1-rescue #PWR018
 U 1 1 5EB20F66
 P 6650 1600
 F 0 "#PWR018" H 6650 1450 50  0001 C CNN
@@ -601,7 +601,7 @@ F 3 "" H 6650 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb1-rescue:PWR_FLAG-power #FLG01
+L pcb1-rescue:PWR_FLAG-power-pcb1-rescue #FLG01
 U 1 1 5EB2CD1E
 P 6650 1600
 F 0 "#FLG01" H 6650 1675 50  0001 C CNN
@@ -636,7 +636,7 @@ F 5 "CL10A225KO8NNNC" H 6100 3850 50  0001 C CNN "MFR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb1-rescue:GND-power #PWR015
+L pcb1-rescue:GND-power-pcb1-rescue #PWR015
 U 1 1 5EA7B173
 P 6100 4000
 F 0 "#PWR015" H 6100 3750 50  0001 C CNN
@@ -649,7 +649,7 @@ $EndComp
 Wire Wire Line
 	1000 1650 1000 1900
 $Comp
-L pcb1-rescue:+BATT-power #PWR01
+L pcb1-rescue:+BATT-power-pcb1-rescue #PWR01
 U 1 1 5EB287B8
 P 800 700
 F 0 "#PWR01" H 800 550 50  0001 C CNN
@@ -693,7 +693,7 @@ $EndComp
 Wire Wire Line
 	2700 1650 2700 1750
 $Comp
-L pcb1-rescue:GND-power #PWR02
+L pcb1-rescue:GND-power-pcb1-rescue #PWR02
 U 1 1 5EC64914
 P 1550 2450
 F 0 "#PWR02" H 1550 2200 50  0001 C CNN
@@ -751,7 +751,7 @@ Connection ~ 3250 1650
 Wire Wire Line
 	3250 1650 3250 1700
 $Comp
-L pcb1-rescue:AP1509-50SG-13-Converter_DCDC U1
+L pcb1-rescue:AP1509-50SG-13-Converter_DCDC-pcb1-rescue U1
 U 1 1 5FBB15D5
 P 2000 1750
 F 0 "U1" H 2000 1750 50  0001 L BNN
@@ -805,7 +805,7 @@ SPI_MOSI
 Text GLabel 9750 4400 2    50   Input ~ 0
 SPI_MISO
 $Comp
-L pcb1-rescue:SparkfunM9N-sparkfunm9n U3
+L pcb1-rescue:SparkfunM9N-sparkfunm9n-pcb1-rescue U3
 U 1 1 5FC757E9
 P 4950 5450
 F 0 "U3" H 4950 6065 50  0000 C CNN
@@ -816,7 +816,7 @@ F 3 "" H 4900 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb1-rescue:GND-power #PWR012
+L pcb1-rescue:GND-power-pcb1-rescue #PWR012
 U 1 1 5FC7624D
 P 5650 5100
 F 0 "#PWR012" H 5650 4850 50  0001 C CNN
@@ -890,7 +890,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4350 3100 4350
 $Comp
-L pcb1-rescue:GND-power #PWR06
+L pcb1-rescue:GND-power-pcb1-rescue #PWR06
 U 1 1 5FCC18BF
 P 3400 4700
 F 0 "#PWR06" H 3400 4450 50  0001 C CNN
@@ -910,7 +910,7 @@ Wire Wire Line
 	3400 4850 3400 4700
 Connection ~ 3400 4700
 $Comp
-L pcb1-rescue:GND-power #PWR03
+L pcb1-rescue:GND-power-pcb1-rescue #PWR03
 U 1 1 5FCCB5E0
 P 2000 6150
 F 0 "#PWR03" H 2000 5900 50  0001 C CNN
@@ -929,7 +929,7 @@ RX_UART1
 Text Label 1200 5050 2    50   ~ 0
 TX_UART1
 $Comp
-L pcb1-rescue:+3.3V-power #PWR05
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR05
 U 1 1 5FCDA3FC
 P 3250 850
 F 0 "#PWR05" H 3250 700 50  0001 C CNN
@@ -940,7 +940,7 @@ F 3 "" H 3250 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb1-rescue:GND-power #PWR017
+L pcb1-rescue:GND-power-pcb1-rescue #PWR017
 U 1 1 5EA85535
 P 6550 1600
 F 0 "#PWR017" H 6550 1350 50  0001 C CNN
@@ -951,7 +951,7 @@ F 3 "" H 6550 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pcb1-rescue:GND-power #PWR019
+L pcb1-rescue:GND-power-pcb1-rescue #PWR019
 U 1 1 5FCF7CBC
 P 6900 6000
 F 0 "#PWR019" H 6900 5750 50  0001 C CNN
@@ -962,7 +962,7 @@ F 3 "" H 6900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb1-rescue:+3.3V-power #PWR04
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR04
 U 1 1 5FCF8D37
 P 2500 3750
 F 0 "#PWR04" H 2500 3600 50  0001 C CNN
@@ -975,7 +975,7 @@ $EndComp
 Wire Wire Line
 	2000 3750 2500 3750
 $Comp
-L pcb1-rescue:+3.3V-power #PWR013
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR013
 U 1 1 5FCFDEDB
 P 5650 5300
 F 0 "#PWR013" H 5650 5150 50  0001 C CNN
@@ -986,7 +986,7 @@ F 3 "" H 5650 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pcb1-rescue:+3.3V-power #PWR020
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR020
 U 1 1 5FCFEEFD
 P 7350 5100
 F 0 "#PWR020" H 7350 4950 50  0001 C CNN
@@ -1016,7 +1016,7 @@ F 5 "C30530" H 6900 5400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb1-rescue:GND-power #PWR07
+L pcb1-rescue:GND-power-pcb1-rescue #PWR07
 U 1 1 5EAB3202
 P 3550 850
 F 0 "#PWR07" H 3550 600 50  0001 C CNN
@@ -1065,7 +1065,7 @@ Connection ~ 3250 1250
 Wire Wire Line
 	3250 1250 3250 1350
 $Comp
-L pcb1-rescue:GND-power #PWR08
+L pcb1-rescue:GND-power-pcb1-rescue #PWR08
 U 1 1 5FD31373
 P 4350 3050
 F 0 "#PWR08" H 4350 2800 50  0001 C CNN
@@ -1149,7 +1149,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 6900 5550 6900
 $Comp
-L pcb1-rescue:GND-power #PWR09
+L pcb1-rescue:GND-power-pcb1-rescue #PWR09
 U 1 1 5FD765F3
 P 4500 5500
 F 0 "#PWR09" H 4500 5250 50  0001 C CNN
@@ -1160,7 +1160,7 @@ F 3 "" H 4500 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pcb1-rescue:+3.3V-power #PWR010
+L pcb1-rescue:+3.3V-power-pcb1-rescue #PWR010
 U 1 1 5FD79B08
 P 4500 5600
 F 0 "#PWR010" H 4500 5450 50  0001 C CNN
