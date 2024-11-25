@@ -25,7 +25,8 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library
  * 
  * 
- * 
+ * Il faut aussi installer manuellement la librairie BlinkControl, celle fournie par les IDE Arduino n'etant plus MAJ
+ * https://github.com/Xtra-Large/BlinkControl
  * 
  */
 
