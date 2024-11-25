@@ -50,6 +50,9 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *    - Ajout port serie 2
  *    - UDP NMEA0183 broadcast
  *    - TCP NMEA1083
+
+ *  20241125
+ *    - MAJ des librairies pour compilation
  */
 
 
@@ -66,8 +69,8 @@ extern "C" {
  
 #define DEBUG_ON false
 
-#define VERSION 0.11
-#define VERSION_STR "0.11"
+#define VERSION 0.12
+#define VERSION_STR "0.12"
 #include <cstdint>
 #include <Arduino.h>
 #include <WiFi.h>
@@ -380,7 +383,7 @@ void setup() {
       Serial.println(F("Ublox GPS not detected at default I2C address. CHeck other addresses."));
 #endif
       preferences.begin("nvs", false);                          // Open nonvolatile storage (nvs)
-      byte gpsI2CAddress = preferences.getInt("Gps_I2C_Address", 0x42);  // I2C Address
+      uint8_t gpsI2CAddress = preferences.getInt("Gps_I2C_Address", 0x42);  // I2C Address
       if (myGNSS.begin(Wire, gpsI2CAddress) == false){ //Connect to the Ublox module using Wire port
 #if DEBUG_ON        
         Serial.println(F("Ublox GPS not detected at saved I2C address. CHeck other addresses."));
@@ -960,11 +963,11 @@ void SendNMEA0183Message(const tNMEA0183Msg &NMEA0183Msg) {
     Serial.println("Sending UDP NMEA0183 message");
 #endif
     udpNmea0183.beginPacket(broadCastIPAddress, UDP_NMEA0183_PORT);  // Send to UDP
-    udpNmea0183.write((byte*)buf, MAX_NMEA0183_MESSAGE_SIZE);
+    udpNmea0183.write((uint8_t*)buf, MAX_NMEA0183_MESSAGE_SIZE);
     udpNmea0183.endPacket();
 
     udpNmea0183.beginPacket(broadCastIPAddressStation, UDP_NMEA0183_PORT);  // Send to UDP
-    udpNmea0183.write((byte*)buf, MAX_NMEA0183_MESSAGE_SIZE);
+    udpNmea0183.write((uint8_t*)buf, MAX_NMEA0183_MESSAGE_SIZE);
     udpNmea0183.endPacket();
     
 
